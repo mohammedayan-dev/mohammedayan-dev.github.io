@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html>
 <head>
 
@@ -64,10 +65,29 @@ transform:translateY(-5px);
 background:#374151;
 }
 
+/* IMAGE SIZE FIX */
 .project img{
 width:100%;
+max-width:650px;
+display:block;
+margin:15px auto;
 border-radius:10px;
-margin-bottom:15px;
+}
+
+/* BUTTON STYLING */
+.button{
+display:inline-block;
+background:#3b82f6;
+color:white;
+padding:10px 18px;
+border-radius:6px;
+text-decoration:none;
+margin-top:10px;
+margin-right:10px;
+}
+
+.button:hover{
+background:#2563eb;
 }
 
 .skills span{
@@ -142,11 +162,11 @@ Passionate about building real-world engineering projects.
 ESP32 based RFID door access system with keypad authentication and OLED display.
 </p>
 
-<p><b>Click image to view actual project photos</b></p>
+<p><b>Click the image to view actual project photos</b></p>
 
-<a href="https://github.com/mohammedayan-dev">
-View GitHub
-</a>
+<a href="rfid-project.html" class="button">View Project Gallery</a>
+
+<a href="https://github.com/mohammedayan-dev" class="button">View GitHub</a>
 
 </div>
 
@@ -178,12 +198,7 @@ Developed Android applications using Android Studio with AI assisted tools.
 
 <div class="skills">
 
-<span>Python</span>
-<span>OpenCV</span>
-<span>C/C++</span>
-<span>Arduino</span>
-<span>ESP32</span>
-<span>Android Development</span>
+<span>Python</span> <span>OpenCV</span> <span>C/C++</span> <span>Arduino</span> <span>ESP32</span> <span>Android Development</span>
 
 </div>
 
