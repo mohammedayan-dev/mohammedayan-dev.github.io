@@ -4,66 +4,95 @@
 <title>Mohammed Ayan Portfolio</title>
 
 <style>
+
 body{
 background:#0b0f19;
-font-family:Arial;
+font-family:Arial, sans-serif;
 color:white;
 margin:0;
 }
 
 header{
 background:#111827;
-padding:25px;
+padding:40px;
 text-align:center;
-font-size:28px;
-font-weight:bold;
 }
 
-section{
-padding:40px;
-max-width:900px;
+header h1{
+margin:0;
+font-size:36px;
+}
+
+header p{
+color:#9ca3af;
+}
+
+.container{
+max-width:1000px;
 margin:auto;
+padding:40px;
 }
 
 h2{
 color:#3b82f6;
+margin-top:40px;
 }
 
 .project{
 background:#1f2937;
-padding:20px;
+padding:25px;
 margin:20px 0;
-border-radius:10px;
+border-radius:12px;
+transition:0.3s;
 }
 
-a{
+.project:hover{
+transform:translateY(-5px);
+background:#374151;
+}
+
+.project h3{
+margin-top:0;
+}
+
+.skills span{
+background:#1f2937;
+padding:8px 14px;
+margin:5px;
+display:inline-block;
+border-radius:6px;
+}
+
+.contact a{
 color:#60a5fa;
 text-decoration:none;
 }
-</style>
 
+footer{
+text-align:center;
+padding:20px;
+color:#6b7280;
+}
+
+</style>
 </head>
 
 <body>
 
 <header>
-Mohammed Ayan | Computer Science Portfolio
+<h1>Mohammed Ayan</h1>
+<p>Computer Science Student | AI • Computer Vision • Embedded Systems</p>
 </header>
 
-<section>
+<div class="container">
 
 <h2>About Me</h2>
 
 <p>
 Computer Science and Engineering student interested in Artificial Intelligence,
-Computer Vision, Embedded Systems and Android Development.
-
-  And exploring the "Quantum Computing"
+Computer Vision, Embedded Systems, Android Development, and exploring Quantum Computing.
+Passionate about building real-world engineering projects.
 </p>
-
-</section>
-
-<section>
 
 <h2>Projects</h2>
 
@@ -88,32 +117,29 @@ Developed Android applications using Android Studio with AI assisted tools.
 </p>
 </div>
 
-</section>
-
-<section>
-
 <h2>Skills</h2>
 
-<p>
-Python • OpenCV • C/C++ • Arduino • ESP32 • Android Development
-</p>
-
-</section>
-
-<section>
+<div class="skills">
+<span>Python</span>
+<span>OpenCV</span>
+<span>C/C++</span>
+<span>Arduino</span>
+<span>ESP32</span>
+<span>Android</span>
+</div>
 
 <h2>Contact</h2>
 
+<div class="contact">
 <p>Email: your-email@gmail.com</p>
+<p>GitHub: <a href="https://github.com/mohammedayan-dev">github.com/mohammedayan-dev</a></p>
+</div>
 
-<p>
-GitHub:
-<a href="https://github.com/mohammedayan-dev">
-github.com/mohammedayan-dev
-</a>
-</p>
+</div>
 
-</section>
+<footer>
+© 2026 Mohammed Ayan
+</footer>
 
 </body>
 </html>
